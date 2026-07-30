@@ -1,14 +1,18 @@
 # Sottelli Flosum
 
+# Finalidade
+
+Finalidade de facilitar o acesso a ferramenta do Flosum dentro do ecossistema da Salesforce, facilitando a identificação do usuário com a conta do Google dentro da plataforma.
+
+
+
+
+
 ## Política de Privacidade
 
 **Última atualização:** Julho de 2026
 
 A sua privacidade é de extrema importância para nós. Esta Política de Privacidade explica como o **Flosum - Sottelli** coleta, usa, compartilha e protege as suas informações quando você utiliza o nosso aplicativo e opta por fazer login com a sua conta do Google.
-
-## Finalidade
-
-Finalidade de facilitar o acesso a ferramenta do Flosum dentro do ecossistema da Salesforce, facilitando a identificação do usuário com a conta do Google dentro da plataforma.
 
 ---
 
