@@ -1,28 +1,44 @@
 ---
 layout: null
-title: Sottelli Flosum
 ---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sottelli Flosum</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #111; }
+        .highlight { background-color: #f9f9f9; border-left: 4px solid #0066cc; padding: 15px; margin: 20px 0; }
+    </style>
+</head>
+<body>
 
-# Sottelli Flosum
+    <h1>Sottelli Flosum</h1>
 
-**Finalidade do Aplicativo:** 
-O **Sottelli Flosum** é uma ferramenta interna desenvolvida com o objetivo exclusivo de simplificar o acesso dos colaboradores à plataforma de gerenciamento Flosum. O aplicativo atua como uma ponte de autenticação segura (Single Sign-On), permitindo que os usuários façam login utilizando suas contas corporativas do Google da empresa, eliminando a necessidade de criar novas senhas e garantindo um ambiente de trabalho mais ágil e seguro.
+    <div class="highlight">
+        <strong>Finalidade do Aplicativo:</strong><br>
+        O aplicativo <strong>Sottelli Flosum</strong> tem como finalidade exclusiva servir como um mecanismo de autenticação Single Sign-On (SSO). Ele permite que os colaboradores da empresa realizem login de forma segura na plataforma Flosum utilizando suas contas corporativas do Google, facilitando o acesso e unificando a gestão de credenciais internas.
+    </div>
 
----
+    <h2>Funcionalidades do App</h2>
+    <ul>
+        <li>Autenticação unificada por meio das contas corporativas do Google.</li>
+        <li>Eliminação da necessidade de senhas adicionais para o ambiente Flosum.</li>
+        <li>Validação e controle de acesso restrito a funcionários autorizados.</li>
+    </ul>
 
-## Funcionalidades
-* **Autenticação Segura:** Permite o login direto no sistema utilizando a infraestrutura de segurança da conta Google da empresa.
-* **Simplificação de Acesso:** Facilita a rotina do colaborador ao unificar o acesso através do e-mail corporativo.
-* **Validação de Identidade:** Garante que apenas colaboradores autorizados e com contas ativas na organização acessem os dados.
+    <h2>Transparência no Uso de Dados</h2>
+    <p>Para cumprir sua finalidade de login, o aplicativo solicita acesso apenas aos escopos básicos do Google OAuth 2.0:</p>
+    <ol>
+        <li><strong>E-mail (email):</strong> Utilizado exclusivamente para identificar o usuário e confirmar sua autorização na plataforma.</li>
+        <li><strong>Perfil Básico (profile, openid):</strong> Utilizado apenas para validação e manutenção da sessão de usuário ativa.</li>
+    </ol>
+    <p><em>Nota: Este aplicativo não armazena, não compartilha e não utiliza seus dados para qualquer outra finalidade além da autenticação.</em></p>
 
-## Transparência e Uso de Dados
-Para realizar a autenticação e cumprir sua finalidade, o aplicativo solicita acesso estritamente aos seguintes escopos básicos do Google:
-1. **Endereço de e-mail (`email`):** Utilizado unicamente para identificar o usuário e validar se ele possui uma conta corporativa autorizada para acessar a plataforma.
-2. **Informações de perfil básico (`profile`, `openid`):** Utilizado para exibir o nome do usuário na interface de boas-vindas e gerenciar o tempo de sessão ativa.
+    <hr>
 
-> **Aviso de Privacidade:** Este aplicativo **não** armazena, **não** coleta e **não** compartilha nenhuma informação pessoal ou dados de outras ferramentas do Google com terceiros. O fluxo de dados serve apenas para concluir o processo de login.
+    <p>Consulte nossos termos completos na nossa <a href="./privacy">Política de Privacidade</a>.</p>
 
----
-
-## Links Oficiais
-* [Política de Privacidade](./privacy)
+</body>
+</html>
