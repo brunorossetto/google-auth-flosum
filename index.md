@@ -1,8 +1,3 @@
----
-layout: default
-title: Página Inicial
----
-
 # Sottelli Flosum
 
 # Finalidade
