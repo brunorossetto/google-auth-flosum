@@ -1,4 +1,4 @@
-# Política de Privacidade - Flosum - Sottelli
+# Política de Privacidade do Aplicativo: Flosum - Sottelli
 
 **Última atualização:** Julho de 2026
 
