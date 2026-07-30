@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sottelli Flosum
+---
+
 # Sottelli Flosum
 
 O **Sottelli Flosum** é um aplicativo interno desenvolvido para simplificar e centralizar o mecanismo de autenticação de usuários na plataforma Sottelli Flosum. 
